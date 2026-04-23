@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5949746780282795471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3438039863925012714}
+  - component: {fileID: 3699217286703116525}
+  m_Layer: 0
+  m_Name: Crop_Broken_Carrot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3438039863925012714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5949746780282795471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 2, z: 24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3699217286703116525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5949746780282795471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14fbe90ce15d9a4e993eb490534a121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RepairableObject
+  brokenPrefab: {fileID: 5427886293747706320, guid: 211ee66cf2cc2f444b0ad19bae4e999a, type: 3}
+  repairedPrefab: {fileID: 85649553122367655, guid: b14735d5ea5d4e4499fc41918dc8759f, type: 3}
+  requiredMoney: 1
+  interactionRange: 1
+  successSound: {fileID: 8300000, guid: 973cbfce50fc9634b8c2729624d4cc4d, type: 3}
+  failSound: {fileID: 8300000, guid: 146d4b19f95fe6d40832414952b4ea39, type: 3}
+  eHintOffset: {x: 0, y: 2.5, z: 0}
+  priceHintOffset: {x: 0, y: 1.5, z: 0}
+  priceTextColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1854618948943673742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5546595828525653403}
+  - component: {fileID: 3016775456352732023}
+  m_Layer: 0
+  m_Name: Crop_Mashroom
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5546595828525653403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854618948943673742}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: 2, z: 24}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3016775456352732023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854618948943673742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e99eb9e4d9784e4caaa0941ffbe8258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Crop
+  stages:
+  - modelPrefab: {fileID: 1558665303303309010, guid: 1d9bd8633a571a64c974d2ba5667c838, type: 3}
+    timeToGrow: 6
+    timeToDie: 12
+  - modelPrefab: {fileID: 3671648868132710387, guid: 81deb2d587bf15041867526f766c512c, type: 3}
+    timeToGrow: 6
+    timeToDie: 12
+  - modelPrefab: {fileID: 5787875867516966417, guid: 3b1e5cc58c2674149ba6c3d507969922, type: 3}
+    timeToGrow: 6
+    timeToDie: 12
+  - modelPrefab: {fileID: 1177130784684977186, guid: db349d6ba73da3244b8f16c2c0e30065, type: 3}
+    timeToGrow: 0
+    timeToDie: 24
+  - modelPrefab: {fileID: 7719469731254750607, guid: 6cbd8f6e1339b914f8f2fd58ac9d382a, type: 3}
+    timeToGrow: 0
+    timeToDie: 0
+  interactionRange: 1
+  interactKey: 101
+  wateringIconPrefab: {fileID: 5414077008123971056, guid: b99a481469a763547afd7f56716dd9d0, type: 3}
+  harvestIconPrefab: {fileID: 7208867671256169219, guid: 37d6558a979fe0046ba42dae63fb66fb, type: 3}
+  deadIconPrefab: {fileID: 6013926057701310411, guid: fba6bcb3c7d442c4f95fafcbfffcd636, type: 3}
+  statusIconOffset: {x: 0, y: 1.5, z: 0}
+  hintOffset: {x: 0, y: 2.5, z: 0}
+  productPrefab: {fileID: 522450192520747998, guid: 1392fd565ad036744b2d2216f6eb0121, type: 3}
+  productAmount: 2
+  waterSound: {fileID: 8300000, guid: a1c48dd39207ece46a29b8796640661e, type: 3}
+  harvestSound: {fileID: 8300000, guid: c58a6e6d4ceb56e4882a7d60561a7afc, type: 3}
+  shovelSound: {fileID: 8300000, guid: bf0938dc5667ff34aa2616789bb48a17, type: 3}
+  inventoryFullSound: {fileID: 8300000, guid: 146d4b19f95fe6d40832414952b4ea39, type: 3}
