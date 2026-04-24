@@ -6,6 +6,9 @@ Your goal is to grow and harvest crops as well as improve farm by buying and cle
 ## Unity Version
 - **6000.3.0f1** (Unity 6.3 LTS)
 
+## Platforms
+ - Windows, Mac, Linux
+
 ## Branch
  - main
 
