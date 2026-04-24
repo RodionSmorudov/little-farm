@@ -229,7 +229,7 @@ public class RepairableObject : MonoBehaviour
         Image panelImage = panelObj.AddComponent<Image>();
         panelImage.color = new Color(0, 0, 0, 0.7f);
         RectTransform panelRect = panelObj.GetComponent<RectTransform>();
-        panelRect.sizeDelta = new Vector2(200, 80);
+        panelRect.sizeDelta = new Vector2(256, 96);
         panelRect.anchoredPosition = Vector2.zero;
 
         // Text: "Repair: X G"
