@@ -1,7 +1,7 @@
 # Little Farm
 
 A 3D farm tycoon with 3rd person camera where you play as Wolfy. 
-Your goal is to grow and harvest crops as well as improve farm by buying and clearing up new patches of garden.
+Your goal is to grow and harvest crops as well as improve the farm by buying and clearing up new patches of garden.
 
 ## Unity Version
 - **6000.3.0f1** (Unity 6.3 LTS)
